@@ -1,0 +1,6 @@
+framework module UICountdownTimer {
+  umbrella header "UICountdownTimer-umbrella.h"
+
+  export *
+  module * { export * }
+}

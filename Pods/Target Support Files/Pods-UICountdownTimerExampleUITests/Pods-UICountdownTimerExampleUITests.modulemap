@@ -1,0 +1,6 @@
+framework module Pods_UICountdownTimerExampleUITests {
+  umbrella header "Pods-UICountdownTimerExampleUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

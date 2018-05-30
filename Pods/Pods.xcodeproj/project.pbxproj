@@ -1,0 +1,966 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23554AAAF9BB5459060AD01F4A25F4B2 /* CountdownTimerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB99832EE514F049D4956F9DBA0891C8 /* CountdownTimerType.swift */; };
+		2B6F6BC65AC41D02B5262B74C2EF7901 /* CountdownTimerViewIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CBA3F09A764209E8018BEA76818990 /* CountdownTimerViewIO.swift */; };
+		2E5251C0528403B1F6EA21BB7B72C18F /* UICountdownTimer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 808EA226D8376B358976BC6597229534 /* UICountdownTimer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52F55C7D32D555B439D133AB9D2C4541 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		69DEB856F7103F59768DC34631D9DB68 /* Pods-UICountdownTimerExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BBD0554A2B2A2738E95530D882CA0631 /* Pods-UICountdownTimerExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E8176DBC2CC89112E5EFC0502556A62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		7168EA0A4D29B802D3BB5B465E22F732 /* CountdownTimerPickerViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5B9C7109074060CAD62F94B303039A /* CountdownTimerPickerViewDelegate.swift */; };
+		8CA098AC309998974C251D16CDB46AC9 /* UICountdownTimer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A02256D5FC7F98913A7FE571FF02D6 /* UICountdownTimer-dummy.m */; };
+		A497C68EB3B577E937266D9F6F73F2F4 /* Pods-UICountdownTimerExampleUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7682E6005317BD0F7E07C7D2280180B1 /* Pods-UICountdownTimerExampleUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A65CA55AD492D7967A9FD193C373CEEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		B12520D3ECB266C74519738A87203EAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		B34A66DEC3988ACC53048C10AF80AFBB /* CountdownTimerPickerViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0370FB741452164956750462C9F1B575 /* CountdownTimerPickerViewDataSource.swift */; };
+		B8C497AE70729F36C51B844291B9A925 /* Pods-UICountdownTimerExampleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE466FD8EDCD24AD60746E21CC9BEFA /* Pods-UICountdownTimerExampleTests-dummy.m */; };
+		BBBADA8D53A688A9C04926E3505DF28E /* Pods-UICountdownTimerExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43284A8E97E04758AC6E0407F7F7F4BC /* Pods-UICountdownTimerExample-dummy.m */; };
+		CED5E204582608C515A9F80795F4A86D /* CountdownTimerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92250E8729BE75853C863E82166DF9F /* CountdownTimerPresenter.swift */; };
+		CFE9ECE9666D54500984374B569FADA7 /* CountdownTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC0132FA0395EE25F0FBB5BA1327118 /* CountdownTimerView.swift */; };
+		EDF8987E83EA18A05C6E0A2E5C672C57 /* CountdownTimerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE4AD0573060CC2FD8AF9A2B29DFC4F /* CountdownTimerError.swift */; };
+		F0C568D82D075827546D15D17003494B /* Pods-UICountdownTimerExampleUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCAA43F7436B7AB08CD28C5E76F4A1C /* Pods-UICountdownTimerExampleUITests-dummy.m */; };
+		FB41F305E745CFB1FF08B8D66B185E0F /* Pods-UICountdownTimerExampleTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D44A96182402E61A5AAD38B4F7D364DB /* Pods-UICountdownTimerExampleTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3316C1ADE6E7EE522CAD0F3313220533 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 855D18CEF45E88737D86144410E27970;
+			remoteInfo = "Pods-UICountdownTimerExample";
+		};
+		57F53212286C42E039969F0543B0BA54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7ECAF2068A715C74920F177159A45483;
+			remoteInfo = UICountdownTimer;
+		};
+		7C21922E07917310F85F1285363CDCD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 855D18CEF45E88737D86144410E27970;
+			remoteInfo = "Pods-UICountdownTimerExample";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0370FB741452164956750462C9F1B575 /* CountdownTimerPickerViewDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CountdownTimerPickerViewDataSource.swift; path = UICountdownTimer/View/UIPickekViewDelegates/CountdownTimerPickerViewDataSource.swift; sourceTree = "<group>"; };
+		21A02256D5FC7F98913A7FE571FF02D6 /* UICountdownTimer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UICountdownTimer-dummy.m"; sourceTree = "<group>"; };
+		290A3F5A8A5B1AE792CC469FE7761EBC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DCE1062A925B82B9669267593388CB0 /* Pods-UICountdownTimerExampleUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UICountdownTimerExampleUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2FE4AD0573060CC2FD8AF9A2B29DFC4F /* CountdownTimerError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CountdownTimerError.swift; path = UICountdownTimer/Presenter/CountdownTimerError.swift; sourceTree = "<group>"; };
+		3146E577119483991F003B2E32CE1CB9 /* Pods_UICountdownTimerExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UICountdownTimerExampleTests.framework; path = "Pods-UICountdownTimerExampleTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3313BC3DC933B20E2FD3444AF35A8814 /* Pods-UICountdownTimerExampleUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UICountdownTimerExampleUITests.modulemap"; sourceTree = "<group>"; };
+		3BFB07818338C8A64407870E4A846646 /* Pods-UICountdownTimerExampleTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UICountdownTimerExampleTests-resources.sh"; sourceTree = "<group>"; };
+		43284A8E97E04758AC6E0407F7F7F4BC /* Pods-UICountdownTimerExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UICountdownTimerExample-dummy.m"; sourceTree = "<group>"; };
+		4F88D54E9E5D47D0401CDAA3A60AC689 /* Pods-UICountdownTimerExampleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UICountdownTimerExampleTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		606F2570319EB494E2BD44E73CD5E09D /* Pods-UICountdownTimerExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UICountdownTimerExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6D3458C99C16C460CB63602BFCA9C865 /* UICountdownTimer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UICountdownTimer-prefix.pch"; sourceTree = "<group>"; };
+		73425793DFF4EBCED72D6ABE78BA8308 /* Pods-UICountdownTimerExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UICountdownTimerExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		76448D327A043F1AC71D5898D3A35206 /* Pods-UICountdownTimerExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UICountdownTimerExample.release.xcconfig"; sourceTree = "<group>"; };
+		7682E6005317BD0F7E07C7D2280180B1 /* Pods-UICountdownTimerExampleUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UICountdownTimerExampleUITests-umbrella.h"; sourceTree = "<group>"; };
+		7ED6E9755E2C7AA0D894824DE1F0DBE9 /* Pods_UICountdownTimerExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UICountdownTimerExample.framework; path = "Pods-UICountdownTimerExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		807CCE074808981FCF37A12EF9AAC6A1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		808EA226D8376B358976BC6597229534 /* UICountdownTimer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UICountdownTimer-umbrella.h"; sourceTree = "<group>"; };
+		8C56AB72A2914A9C17828B603FBA7B7A /* UICountdownTimer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UICountdownTimer.xcconfig; sourceTree = "<group>"; };
+		910BAB16DC56A39CE654748FE86A8B54 /* Pods-UICountdownTimerExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UICountdownTimerExample.debug.xcconfig"; sourceTree = "<group>"; };
+		92B89556866823025F5702AF80EC1445 /* Pods_UICountdownTimerExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UICountdownTimerExampleUITests.framework; path = "Pods-UICountdownTimerExampleUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		949F71897C03AE5A9B7C5AB69AAE7E95 /* Pods-UICountdownTimerExampleTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UICountdownTimerExampleTests.modulemap"; sourceTree = "<group>"; };
+		96CA0EED28720EB578831ED6868C84D4 /* Pods-UICountdownTimerExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UICountdownTimerExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AFE466FD8EDCD24AD60746E21CC9BEFA /* Pods-UICountdownTimerExampleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UICountdownTimerExampleTests-dummy.m"; sourceTree = "<group>"; };
+		B54BC41D6EF6CAD4C32E9C2310819430 /* Pods-UICountdownTimerExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UICountdownTimerExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		B5682BC7245A26CC3D2BCECD8060C696 /* Pods-UICountdownTimerExampleUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UICountdownTimerExampleUITests-frameworks.sh"; sourceTree = "<group>"; };
+		B8F92BB297575368C4FE437400BBC243 /* Pods-UICountdownTimerExampleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UICountdownTimerExampleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BBD0554A2B2A2738E95530D882CA0631 /* Pods-UICountdownTimerExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UICountdownTimerExample-umbrella.h"; sourceTree = "<group>"; };
+		BCCAA43F7436B7AB08CD28C5E76F4A1C /* Pods-UICountdownTimerExampleUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UICountdownTimerExampleUITests-dummy.m"; sourceTree = "<group>"; };
+		BDB7A5C9A0BC4379C826B6AF8404F4BF /* UICountdownTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UICountdownTimer.framework; path = UICountdownTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C33F857BC03E2BEA5B9EB57984A696CC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4D0BDB1FFA362936B1ECAE4963B43E9 /* Pods-UICountdownTimerExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UICountdownTimerExample.modulemap"; sourceTree = "<group>"; };
+		C7BAEE86A0AD71432D913695BBD81967 /* Pods-UICountdownTimerExampleUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UICountdownTimerExampleUITests-resources.sh"; sourceTree = "<group>"; };
+		C92FE1A3F4463DCF8C9C39607C5C8FBD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAEE09237EE9D9F2693B7AD9A91251B3 /* Pods-UICountdownTimerExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UICountdownTimerExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CB99832EE514F049D4956F9DBA0891C8 /* CountdownTimerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CountdownTimerType.swift; path = UICountdownTimer/Presenter/CountdownTimerType.swift; sourceTree = "<group>"; };
+		D44A96182402E61A5AAD38B4F7D364DB /* Pods-UICountdownTimerExampleTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UICountdownTimerExampleTests-umbrella.h"; sourceTree = "<group>"; };
+		D4CBA3F09A764209E8018BEA76818990 /* CountdownTimerViewIO.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CountdownTimerViewIO.swift; path = UICountdownTimer/View/CountdownTimerViewIO.swift; sourceTree = "<group>"; };
+		D92250E8729BE75853C863E82166DF9F /* CountdownTimerPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CountdownTimerPresenter.swift; path = UICountdownTimer/Presenter/CountdownTimerPresenter.swift; sourceTree = "<group>"; };
+		DEC0132FA0395EE25F0FBB5BA1327118 /* CountdownTimerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CountdownTimerView.swift; path = UICountdownTimer/View/CountdownTimerView.swift; sourceTree = "<group>"; };
+		E0B91E3E7A241B9A55B53C980A90B744 /* Pods-UICountdownTimerExampleTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UICountdownTimerExampleTests-frameworks.sh"; sourceTree = "<group>"; };
+		E240D31F116874B170A34E929E16C8C3 /* UICountdownTimer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UICountdownTimer.modulemap; sourceTree = "<group>"; };
+		E6AB419830AEAE91B6680D7112D6C291 /* Pods-UICountdownTimerExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UICountdownTimerExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		F0812BE87A651133977BE1349666B76F /* Pods-UICountdownTimerExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UICountdownTimerExample-frameworks.sh"; sourceTree = "<group>"; };
+		F37BDC1855ACE09191FE6E14C4FED0B2 /* Pods-UICountdownTimerExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UICountdownTimerExample-resources.sh"; sourceTree = "<group>"; };
+		F622BA5DA14EF1DB70D8F3649106ADD0 /* Pods-UICountdownTimerExampleUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UICountdownTimerExampleUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FC5B9C7109074060CAD62F94B303039A /* CountdownTimerPickerViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CountdownTimerPickerViewDelegate.swift; path = UICountdownTimer/View/UIPickekViewDelegates/CountdownTimerPickerViewDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09182F7145DE4C46C278465D52145885 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B12520D3ECB266C74519738A87203EAE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A583B14B5813C9557FE613CFAE32693 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A65CA55AD492D7967A9FD193C373CEEA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD91E99D4A62586E9ACDB49E5DBF37B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52F55C7D32D555B439D133AB9D2C4541 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9E9EEB901693C374F669610D2794682 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E8176DBC2CC89112E5EFC0502556A62 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08EB433464118DE286E8B14028D19C74 /* Pods-UICountdownTimerExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				C92FE1A3F4463DCF8C9C39607C5C8FBD /* Info.plist */,
+				949F71897C03AE5A9B7C5AB69AAE7E95 /* Pods-UICountdownTimerExampleTests.modulemap */,
+				B8F92BB297575368C4FE437400BBC243 /* Pods-UICountdownTimerExampleTests-acknowledgements.markdown */,
+				4F88D54E9E5D47D0401CDAA3A60AC689 /* Pods-UICountdownTimerExampleTests-acknowledgements.plist */,
+				AFE466FD8EDCD24AD60746E21CC9BEFA /* Pods-UICountdownTimerExampleTests-dummy.m */,
+				E0B91E3E7A241B9A55B53C980A90B744 /* Pods-UICountdownTimerExampleTests-frameworks.sh */,
+				3BFB07818338C8A64407870E4A846646 /* Pods-UICountdownTimerExampleTests-resources.sh */,
+				D44A96182402E61A5AAD38B4F7D364DB /* Pods-UICountdownTimerExampleTests-umbrella.h */,
+				96CA0EED28720EB578831ED6868C84D4 /* Pods-UICountdownTimerExampleTests.debug.xcconfig */,
+				B54BC41D6EF6CAD4C32E9C2310819430 /* Pods-UICountdownTimerExampleTests.release.xcconfig */,
+			);
+			name = "Pods-UICountdownTimerExampleTests";
+			path = "Target Support Files/Pods-UICountdownTimerExampleTests";
+			sourceTree = "<group>";
+		};
+		585C2270197B413408E6F3706A0DABA9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC72AC230024A9B87B62BA09D744720C /* UICountdownTimer */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		595442E6665158ECA3BE550CEDD8E51A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7ED6E9755E2C7AA0D894824DE1F0DBE9 /* Pods_UICountdownTimerExample.framework */,
+				3146E577119483991F003B2E32CE1CB9 /* Pods_UICountdownTimerExampleTests.framework */,
+				92B89556866823025F5702AF80EC1445 /* Pods_UICountdownTimerExampleUITests.framework */,
+				BDB7A5C9A0BC4379C826B6AF8404F4BF /* UICountdownTimer.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				585C2270197B413408E6F3706A0DABA9 /* Pods */,
+				595442E6665158ECA3BE550CEDD8E51A /* Products */,
+				AA7877E6077E3FBD6B323D3930E02F09 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8F459D5597F9E944805D79E3D007E6CC /* Pods-UICountdownTimerExample */ = {
+			isa = PBXGroup;
+			children = (
+				C33F857BC03E2BEA5B9EB57984A696CC /* Info.plist */,
+				C4D0BDB1FFA362936B1ECAE4963B43E9 /* Pods-UICountdownTimerExample.modulemap */,
+				606F2570319EB494E2BD44E73CD5E09D /* Pods-UICountdownTimerExample-acknowledgements.markdown */,
+				E6AB419830AEAE91B6680D7112D6C291 /* Pods-UICountdownTimerExample-acknowledgements.plist */,
+				43284A8E97E04758AC6E0407F7F7F4BC /* Pods-UICountdownTimerExample-dummy.m */,
+				F0812BE87A651133977BE1349666B76F /* Pods-UICountdownTimerExample-frameworks.sh */,
+				F37BDC1855ACE09191FE6E14C4FED0B2 /* Pods-UICountdownTimerExample-resources.sh */,
+				BBD0554A2B2A2738E95530D882CA0631 /* Pods-UICountdownTimerExample-umbrella.h */,
+				910BAB16DC56A39CE654748FE86A8B54 /* Pods-UICountdownTimerExample.debug.xcconfig */,
+				76448D327A043F1AC71D5898D3A35206 /* Pods-UICountdownTimerExample.release.xcconfig */,
+			);
+			name = "Pods-UICountdownTimerExample";
+			path = "Target Support Files/Pods-UICountdownTimerExample";
+			sourceTree = "<group>";
+		};
+		AA7877E6077E3FBD6B323D3930E02F09 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F459D5597F9E944805D79E3D007E6CC /* Pods-UICountdownTimerExample */,
+				08EB433464118DE286E8B14028D19C74 /* Pods-UICountdownTimerExampleTests */,
+				DF9CF7DD97B286140A7083A10EF6131F /* Pods-UICountdownTimerExampleUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AC72AC230024A9B87B62BA09D744720C /* UICountdownTimer */ = {
+			isa = PBXGroup;
+			children = (
+				2FE4AD0573060CC2FD8AF9A2B29DFC4F /* CountdownTimerError.swift */,
+				0370FB741452164956750462C9F1B575 /* CountdownTimerPickerViewDataSource.swift */,
+				FC5B9C7109074060CAD62F94B303039A /* CountdownTimerPickerViewDelegate.swift */,
+				D92250E8729BE75853C863E82166DF9F /* CountdownTimerPresenter.swift */,
+				CB99832EE514F049D4956F9DBA0891C8 /* CountdownTimerType.swift */,
+				DEC0132FA0395EE25F0FBB5BA1327118 /* CountdownTimerView.swift */,
+				D4CBA3F09A764209E8018BEA76818990 /* CountdownTimerViewIO.swift */,
+				DDAB87EAB3536FCB9370E22362F08AED /* Support Files */,
+			);
+			name = UICountdownTimer;
+			path = UICountdownTimer;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDAB87EAB3536FCB9370E22362F08AED /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				807CCE074808981FCF37A12EF9AAC6A1 /* Info.plist */,
+				E240D31F116874B170A34E929E16C8C3 /* UICountdownTimer.modulemap */,
+				8C56AB72A2914A9C17828B603FBA7B7A /* UICountdownTimer.xcconfig */,
+				21A02256D5FC7F98913A7FE571FF02D6 /* UICountdownTimer-dummy.m */,
+				6D3458C99C16C460CB63602BFCA9C865 /* UICountdownTimer-prefix.pch */,
+				808EA226D8376B358976BC6597229534 /* UICountdownTimer-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UICountdownTimer";
+			sourceTree = "<group>";
+		};
+		DF9CF7DD97B286140A7083A10EF6131F /* Pods-UICountdownTimerExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				290A3F5A8A5B1AE792CC469FE7761EBC /* Info.plist */,
+				3313BC3DC933B20E2FD3444AF35A8814 /* Pods-UICountdownTimerExampleUITests.modulemap */,
+				F622BA5DA14EF1DB70D8F3649106ADD0 /* Pods-UICountdownTimerExampleUITests-acknowledgements.markdown */,
+				2DCE1062A925B82B9669267593388CB0 /* Pods-UICountdownTimerExampleUITests-acknowledgements.plist */,
+				BCCAA43F7436B7AB08CD28C5E76F4A1C /* Pods-UICountdownTimerExampleUITests-dummy.m */,
+				B5682BC7245A26CC3D2BCECD8060C696 /* Pods-UICountdownTimerExampleUITests-frameworks.sh */,
+				C7BAEE86A0AD71432D913695BBD81967 /* Pods-UICountdownTimerExampleUITests-resources.sh */,
+				7682E6005317BD0F7E07C7D2280180B1 /* Pods-UICountdownTimerExampleUITests-umbrella.h */,
+				CAEE09237EE9D9F2693B7AD9A91251B3 /* Pods-UICountdownTimerExampleUITests.debug.xcconfig */,
+				73425793DFF4EBCED72D6ABE78BA8308 /* Pods-UICountdownTimerExampleUITests.release.xcconfig */,
+			);
+			name = "Pods-UICountdownTimerExampleUITests";
+			path = "Target Support Files/Pods-UICountdownTimerExampleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		27AF2F07780E9525CDE7B524620014EB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A497C68EB3B577E937266D9F6F73F2F4 /* Pods-UICountdownTimerExampleUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B6DF9F13F326CFCBA9983604BD03F06 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E5251C0528403B1F6EA21BB7B72C18F /* UICountdownTimer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ABA093B0DE13BBA21778762BAB37F73 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB41F305E745CFB1FF08B8D66B185E0F /* Pods-UICountdownTimerExampleTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7EA223D7E859B733178ADEC46374901 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69DEB856F7103F59768DC34631D9DB68 /* Pods-UICountdownTimerExample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2C112AABC1386E2A4711D8ADE8383D4C /* Pods-UICountdownTimerExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD7F88B9DC48157E73CB9E89BB568081 /* Build configuration list for PBXNativeTarget "Pods-UICountdownTimerExampleUITests" */;
+			buildPhases = (
+				4E9B33F75FACD7F243F31DC3D9A600E3 /* Sources */,
+				09182F7145DE4C46C278465D52145885 /* Frameworks */,
+				27AF2F07780E9525CDE7B524620014EB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5D99BEE25C2E00D53D89E7C3D2E636A /* PBXTargetDependency */,
+			);
+			name = "Pods-UICountdownTimerExampleUITests";
+			productName = "Pods-UICountdownTimerExampleUITests";
+			productReference = 92B89556866823025F5702AF80EC1445 /* Pods_UICountdownTimerExampleUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		545FE44B6742F77640E2BD3BC06E9569 /* Pods-UICountdownTimerExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E9FA96D7E49E52D5DFB63596E7A6855 /* Build configuration list for PBXNativeTarget "Pods-UICountdownTimerExampleTests" */;
+			buildPhases = (
+				AB71E8FF96FD3CABDB2697F8B2D62567 /* Sources */,
+				F9E9EEB901693C374F669610D2794682 /* Frameworks */,
+				9ABA093B0DE13BBA21778762BAB37F73 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EC7DF2A0BBC77378FCB5FF8D9667923 /* PBXTargetDependency */,
+			);
+			name = "Pods-UICountdownTimerExampleTests";
+			productName = "Pods-UICountdownTimerExampleTests";
+			productReference = 3146E577119483991F003B2E32CE1CB9 /* Pods_UICountdownTimerExampleTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7ECAF2068A715C74920F177159A45483 /* UICountdownTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6687B34191383D5B6E0D4021B1CBA9D5 /* Build configuration list for PBXNativeTarget "UICountdownTimer" */;
+			buildPhases = (
+				0DB54D088C6F900D44052544F9BC1D17 /* Sources */,
+				6A583B14B5813C9557FE613CFAE32693 /* Frameworks */,
+				8B6DF9F13F326CFCBA9983604BD03F06 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UICountdownTimer;
+			productName = UICountdownTimer;
+			productReference = BDB7A5C9A0BC4379C826B6AF8404F4BF /* UICountdownTimer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		855D18CEF45E88737D86144410E27970 /* Pods-UICountdownTimerExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79A97732304646F7F938FC994EFF5AA7 /* Build configuration list for PBXNativeTarget "Pods-UICountdownTimerExample" */;
+			buildPhases = (
+				DD478915FFF259B72264AB0695278141 /* Sources */,
+				AD91E99D4A62586E9ACDB49E5DBF37B9 /* Frameworks */,
+				E7EA223D7E859B733178ADEC46374901 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				623D552A18E65D848ACAC5AA8705BDAC /* PBXTargetDependency */,
+			);
+			name = "Pods-UICountdownTimerExample";
+			productName = "Pods-UICountdownTimerExample";
+			productReference = 7ED6E9755E2C7AA0D894824DE1F0DBE9 /* Pods_UICountdownTimerExample.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 595442E6665158ECA3BE550CEDD8E51A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				855D18CEF45E88737D86144410E27970 /* Pods-UICountdownTimerExample */,
+				545FE44B6742F77640E2BD3BC06E9569 /* Pods-UICountdownTimerExampleTests */,
+				2C112AABC1386E2A4711D8ADE8383D4C /* Pods-UICountdownTimerExampleUITests */,
+				7ECAF2068A715C74920F177159A45483 /* UICountdownTimer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DB54D088C6F900D44052544F9BC1D17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF8987E83EA18A05C6E0A2E5C672C57 /* CountdownTimerError.swift in Sources */,
+				B34A66DEC3988ACC53048C10AF80AFBB /* CountdownTimerPickerViewDataSource.swift in Sources */,
+				7168EA0A4D29B802D3BB5B465E22F732 /* CountdownTimerPickerViewDelegate.swift in Sources */,
+				CED5E204582608C515A9F80795F4A86D /* CountdownTimerPresenter.swift in Sources */,
+				23554AAAF9BB5459060AD01F4A25F4B2 /* CountdownTimerType.swift in Sources */,
+				CFE9ECE9666D54500984374B569FADA7 /* CountdownTimerView.swift in Sources */,
+				2B6F6BC65AC41D02B5262B74C2EF7901 /* CountdownTimerViewIO.swift in Sources */,
+				8CA098AC309998974C251D16CDB46AC9 /* UICountdownTimer-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E9B33F75FACD7F243F31DC3D9A600E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0C568D82D075827546D15D17003494B /* Pods-UICountdownTimerExampleUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB71E8FF96FD3CABDB2697F8B2D62567 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8C497AE70729F36C51B844291B9A925 /* Pods-UICountdownTimerExampleTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD478915FFF259B72264AB0695278141 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBBADA8D53A688A9C04926E3505DF28E /* Pods-UICountdownTimerExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5EC7DF2A0BBC77378FCB5FF8D9667923 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-UICountdownTimerExample";
+			target = 855D18CEF45E88737D86144410E27970 /* Pods-UICountdownTimerExample */;
+			targetProxy = 7C21922E07917310F85F1285363CDCD2 /* PBXContainerItemProxy */;
+		};
+		623D552A18E65D848ACAC5AA8705BDAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UICountdownTimer;
+			target = 7ECAF2068A715C74920F177159A45483 /* UICountdownTimer */;
+			targetProxy = 57F53212286C42E039969F0543B0BA54 /* PBXContainerItemProxy */;
+		};
+		D5D99BEE25C2E00D53D89E7C3D2E636A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-UICountdownTimerExample";
+			target = 855D18CEF45E88737D86144410E27970 /* Pods-UICountdownTimerExample */;
+			targetProxy = 3316C1ADE6E7EE522CAD0F3313220533 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0468027E8D2DF14400DE9EF0653C2A64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96CA0EED28720EB578831ED6868C84D4 /* Pods-UICountdownTimerExampleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UICountdownTimerExampleTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UICountdownTimerExampleTests/Pods-UICountdownTimerExampleTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		098108985F47E33FDC3194CE794DA67E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAEE09237EE9D9F2693B7AD9A91251B3 /* Pods-UICountdownTimerExampleUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UICountdownTimerExampleUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UICountdownTimerExampleUITests/Pods-UICountdownTimerExampleUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0A2A34109E08484A78C082377D84215C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C56AB72A2914A9C17828B603FBA7B7A /* UICountdownTimer.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UICountdownTimer/UICountdownTimer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UICountdownTimer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/UICountdownTimer/UICountdownTimer.modulemap";
+				PRODUCT_MODULE_NAME = UICountdownTimer;
+				PRODUCT_NAME = UICountdownTimer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0A3B5CD3BB90D1AD48F40E5072401EF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76448D327A043F1AC71D5898D3A35206 /* Pods-UICountdownTimerExample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UICountdownTimerExample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UICountdownTimerExample/Pods-UICountdownTimerExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3812FE6FD269915923BB7F505245DC33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C56AB72A2914A9C17828B603FBA7B7A /* UICountdownTimer.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UICountdownTimer/UICountdownTimer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UICountdownTimer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/UICountdownTimer/UICountdownTimer.modulemap";
+				PRODUCT_MODULE_NAME = UICountdownTimer;
+				PRODUCT_NAME = UICountdownTimer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		545006A7275C69335D11CD2760F97297 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B54BC41D6EF6CAD4C32E9C2310819430 /* Pods-UICountdownTimerExampleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UICountdownTimerExampleTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UICountdownTimerExampleTests/Pods-UICountdownTimerExampleTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		691EE0234A3BA1A3B057D3A4C23C9CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		703082A85162812D3B777E668767AD25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8AF90BC8C387D8CEA023E01F9F0146DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73425793DFF4EBCED72D6ABE78BA8308 /* Pods-UICountdownTimerExampleUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UICountdownTimerExampleUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UICountdownTimerExampleUITests/Pods-UICountdownTimerExampleUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D8ED37572BC23E5506125E0132B5DABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 910BAB16DC56A39CE654748FE86A8B54 /* Pods-UICountdownTimerExample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UICountdownTimerExample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UICountdownTimerExample/Pods-UICountdownTimerExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				691EE0234A3BA1A3B057D3A4C23C9CCC /* Debug */,
+				703082A85162812D3B777E668767AD25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E9FA96D7E49E52D5DFB63596E7A6855 /* Build configuration list for PBXNativeTarget "Pods-UICountdownTimerExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0468027E8D2DF14400DE9EF0653C2A64 /* Debug */,
+				545006A7275C69335D11CD2760F97297 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6687B34191383D5B6E0D4021B1CBA9D5 /* Build configuration list for PBXNativeTarget "UICountdownTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A2A34109E08484A78C082377D84215C /* Debug */,
+				3812FE6FD269915923BB7F505245DC33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79A97732304646F7F938FC994EFF5AA7 /* Build configuration list for PBXNativeTarget "Pods-UICountdownTimerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8ED37572BC23E5506125E0132B5DABC /* Debug */,
+				0A3B5CD3BB90D1AD48F40E5072401EF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD7F88B9DC48157E73CB9E89BB568081 /* Build configuration list for PBXNativeTarget "Pods-UICountdownTimerExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				098108985F47E33FDC3194CE794DA67E /* Debug */,
+				8AF90BC8C387D8CEA023E01F9F0146DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

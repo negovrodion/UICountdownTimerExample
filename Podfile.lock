@@ -1,0 +1,16 @@
+PODS:
+  - UICountdownTimer (0.1.0)
+
+DEPENDENCIES:
+  - UICountdownTimer
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - UICountdownTimer
+
+SPEC CHECKSUMS:
+  UICountdownTimer: ee1ed74a52d216eea2c3d36ed175f5071d8a7790
+
+PODFILE CHECKSUM: 0bb3c214bea438c3d3eb2657ac48cc520febd5c1
+
+COCOAPODS: 1.5.3
